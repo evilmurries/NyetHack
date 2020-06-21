@@ -14,11 +14,15 @@ fun main(args: Array<String>) {
         println(e)
     }
 
-    println("You juggle $numSwords!")
+    println("You juggle $numSwords swords!")
+}
+
+fun juggleSwords(swordsJuggling: Int) {
+    require(swordsJuggling >= 3, { "Juggle at least three swprds to be exciting." })
 }
 
 fun proficiencyCheck(swordsJuggling: Int?) {
-    swordsJuggling ?: throw UnskilledSwordJugglerException()
+    checkNotNull(swordsJuggling, {"Player cannot juggle swords"})
 }
 
 class UnskilledSwordJugglerException() :
