@@ -1,29 +1,49 @@
 import kotlin.math.roundToInt
+import java.io.File
 
 const val TAVERN_NAME = "Taernyl's Folly"
 
 var playerGold = 10
 var playerSilver = 10
+val patronList = mutableListOf("Eli", "Mordoc", "Sophie", "Harold")
+val lastName = listOf("Ironfoot", "Fernsworth", "Baggins", "Jones")
+val uniquePatrons = mutableSetOf<String>()
+val menuList = File("data/tavern-menu-items.txt")
+    .readText()
+    .split("\n")
 
 fun main(args: Array<String>) {
-    placeOrder("shandy,Dragon's Breath,5.91")
+
+    (0..9).forEach {
+        val first = patronList.shuffled().first()
+        val last = lastName.shuffled().first()
+        val name = "$first $last"
+        uniquePatrons += name
+    }
+
+    var orderCount = 0
+    while (orderCount < 10) {
+        placeOrder(uniquePatrons.shuffled().first(), menuList.shuffled().first())
+        orderCount++
+    }
+
 }
 
-fun placeOrder(menuData: String) {
+fun placeOrder(patronName: String, menuData: String) {
     val indexOfApostrophe = TAVERN_NAME.indexOf('\'')
     val tavernMaster = TAVERN_NAME.substring(0 until indexOfApostrophe)
-    println("Xpy speaks with $tavernMaster about their order.")
+    println("$patronName speaks with $tavernMaster about their order.")
 
     val (type, name, price) = menuData.split(',')
-    val message = "Xpy buys a $name ($type) for $price"
+    val message = "$patronName buys a $name ($type) for $price"
     println(message)
 
-    performPurchase(price.toDouble())
+    //performPurchase(price.toDouble())
 
     val phrase = if (name == "Dragon's Breath") {
-        "Xpy exclaims: ${toDragonSpeak("Ah, delicious $name!")}"
+        "$patronName exclaims: ${toDragonSpeak("Ah, delicious $name!")}"
     } else {
-        "Xpy says: Thanks for the $name"
+        "$patronName says: Thanks for the $name"
     }
     println(phrase)
 }
