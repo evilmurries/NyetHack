@@ -22,7 +22,9 @@
     <list default="true" id="43a4253c-0b75-4773-8079-569eb6fce4f1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NyetHack/TavernKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NyetHack/TavernKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NyetHack/GameKt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NyetHack/META-INF/NyetHack.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NyetHack/META-INF/NyetHack.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/NyetHack/TavernKt.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,9 +60,20 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
-  <component name="RunManager" selected="Kotlin.TavernKt">
+  <component name="RecentsManager">
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="com.bignerdranch.nyethack" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/com/bignerdranch/nyethack" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Kotlin.GameKt">
     <configuration name="GameKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="NyetHack" />
       <option name="VM_PARAMETERS" />
@@ -68,7 +81,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="GameKt" />
+      <option name="MAIN_CLASS_NAME" value="com.bignerdranch.nyethack.GameKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -81,7 +94,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="SwordJugglerKt" />
+      <option name="MAIN_CLASS_NAME" value="com.bignerdranch.nyethack.SwordJugglerKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -94,7 +107,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="TavernKt" />
+      <option name="MAIN_CLASS_NAME" value="com.bignerdranch.nyethack.TavernKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -102,9 +115,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.GameKt" />
         <item itemvalue="Kotlin.TavernKt" />
         <item itemvalue="Kotlin.SwordJugglerKt" />
-        <item itemvalue="Kotlin.GameKt" />
       </list>
     </recent_temporary>
   </component>
@@ -122,6 +135,8 @@
       <workItem from="1592511715779" duration="2837000" />
       <workItem from="1592605785501" duration="202000" />
       <workItem from="1592708365729" duration="254000" />
+      <workItem from="1594137745248" duration="310000" />
+      <workItem from="1594138067389" duration="5710000" />
     </task>
     <servers />
   </component>
@@ -132,30 +147,42 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="409" key="GridCell.Tab.0.bottom" timestamp="1594131400799">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="409" y="133" key="#Project_Structure" timestamp="1594137943788">
+      <screen x="0" y="23" width="1842" height="1057" />
     </state>
+    <state x="409" y="133" key="#Project_Structure/-1920.-888.1920.1057/0.23.1842.1057/-1920.192.1920.1057@0.23.1842.1057" timestamp="1594137943788" />
+    <state x="707" y="337" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1594144200476">
+      <screen x="0" y="23" width="1842" height="1057" />
+    </state>
+    <state x="707" y="337" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/-1920.-888.1920.1057/0.23.1842.1057/-1920.192.1920.1057@0.23.1842.1057" timestamp="1594144200476" />
+    <state width="1800" height="290" key="GridCell.Tab.0.bottom" timestamp="1594147273023">
+      <screen x="0" y="23" width="1842" height="1057" />
+    </state>
+    <state width="1800" height="290" key="GridCell.Tab.0.bottom/-1920.-888.1920.1057/0.23.1842.1057/-1920.192.1920.1057@0.23.1842.1057" timestamp="1594147273023" />
     <state width="1237" height="409" key="GridCell.Tab.0.bottom/-805.-1057.1920.1057/0.23.2560.1417/-2481.23.2481.1417@0.23.2560.1417" timestamp="1594131400799" />
     <state width="979" height="305" key="GridCell.Tab.0.bottom/0.0.2048.1112/-2036.-2160.2560.1400@0.0.2048.1112" timestamp="1592792370547" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@-1186.-1057.1920.1057" timestamp="1592512538880" />
     <state width="1878" height="290" key="GridCell.Tab.0.bottom/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@734.-1057.1920.1057" timestamp="1592522777314" />
-    <state width="1237" height="409" key="GridCell.Tab.0.center" timestamp="1594131400799">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1800" height="290" key="GridCell.Tab.0.center" timestamp="1594147273022">
+      <screen x="0" y="23" width="1842" height="1057" />
     </state>
+    <state width="1800" height="290" key="GridCell.Tab.0.center/-1920.-888.1920.1057/0.23.1842.1057/-1920.192.1920.1057@0.23.1842.1057" timestamp="1594147273022" />
     <state width="1237" height="409" key="GridCell.Tab.0.center/-805.-1057.1920.1057/0.23.2560.1417/-2481.23.2481.1417@0.23.2560.1417" timestamp="1594131400799" />
     <state width="979" height="305" key="GridCell.Tab.0.center/0.0.2048.1112/-2036.-2160.2560.1400@0.0.2048.1112" timestamp="1592792370547" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@-1186.-1057.1920.1057" timestamp="1592512538879" />
     <state width="1878" height="290" key="GridCell.Tab.0.center/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@734.-1057.1920.1057" timestamp="1592522777313" />
-    <state width="1237" height="409" key="GridCell.Tab.0.left" timestamp="1594131400799">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1800" height="290" key="GridCell.Tab.0.left" timestamp="1594147273021">
+      <screen x="0" y="23" width="1842" height="1057" />
     </state>
+    <state width="1800" height="290" key="GridCell.Tab.0.left/-1920.-888.1920.1057/0.23.1842.1057/-1920.192.1920.1057@0.23.1842.1057" timestamp="1594147273021" />
     <state width="1237" height="409" key="GridCell.Tab.0.left/-805.-1057.1920.1057/0.23.2560.1417/-2481.23.2481.1417@0.23.2560.1417" timestamp="1594131400799" />
     <state width="979" height="305" key="GridCell.Tab.0.left/0.0.2048.1112/-2036.-2160.2560.1400@0.0.2048.1112" timestamp="1592792370547" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@-1186.-1057.1920.1057" timestamp="1592512538878" />
     <state width="1878" height="290" key="GridCell.Tab.0.left/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@734.-1057.1920.1057" timestamp="1592522777308" />
-    <state width="1237" height="409" key="GridCell.Tab.0.right" timestamp="1594131400799">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state width="1800" height="290" key="GridCell.Tab.0.right" timestamp="1594147273023">
+      <screen x="0" y="23" width="1842" height="1057" />
     </state>
+    <state width="1800" height="290" key="GridCell.Tab.0.right/-1920.-888.1920.1057/0.23.1842.1057/-1920.192.1920.1057@0.23.1842.1057" timestamp="1594147273023" />
     <state width="1237" height="409" key="GridCell.Tab.0.right/-805.-1057.1920.1057/0.23.2560.1417/-2481.23.2481.1417@0.23.2560.1417" timestamp="1594131400799" />
     <state width="979" height="305" key="GridCell.Tab.0.right/0.0.2048.1112/-2036.-2160.2560.1400@0.0.2048.1112" timestamp="1592792370547" />
     <state width="1878" height="290" key="GridCell.Tab.0.right/734.-1057.1920.1057/-1186.-1057.1920.1057/0.23.1606.1027@-1186.-1057.1920.1057" timestamp="1592512538879" />

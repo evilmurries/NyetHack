@@ -1,4 +1,5 @@
-import kotlin.math.roundToInt
+package com.bignerdranch.nyethack
+
 import java.io.File
 
 const val TAVERN_NAME = "Taernyl's Folly"
@@ -25,7 +26,10 @@ fun main(args: Array<String>) {
 
     var orderCount = 0
     while (orderCount < 10) {
-        placeOrder(uniquePatrons.shuffled().first(), menuList.shuffled().first())
+        placeOrder(
+            uniquePatrons.shuffled().first(),
+            menuList.shuffled().first()
+        )
         orderCount++
     }
     displayPatronBalances()
