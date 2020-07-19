@@ -3,10 +3,12 @@ package com.bignerdranch.nyethack
 import java.io.File
 
 class Player(_name: String,
-             var healthPoints: Int= 100,
+             override var healthPoints: Int= 100,
              val isBlessed: Boolean,
-             private val isImmortal: Boolean) {
+             private val isImmortal: Boolean) : Fightable {
 
+    override val diceCount: Int = 3
+    override val diceSides: Int = 6
     var name = _name
     get() = "${field.capitalize()} of $hometown"
     private set(value) {
@@ -21,6 +23,16 @@ class Player(_name: String,
 
     constructor(name: String) : this(name, isBlessed = false, isImmortal = false) {
         if (name.toLowerCase() == "kar") healthPoints = 40
+    }
+
+    override fun attack(opponent: Fightable): Int {
+        val damageDealt = if (isBlessed) {
+            damageRoll * 2
+        } else {
+            damageRoll
+        }
+        opponent.healthPoints -= damageDealt
+        return damageDealt
     }
 
     private fun selectHometown() = File("data/towns.txt")
